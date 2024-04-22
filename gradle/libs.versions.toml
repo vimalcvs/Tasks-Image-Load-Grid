@@ -1,0 +1,19 @@
+[versions]
+agp = "8.3.2"
+appcompat = "1.6.1"
+constraintlayout = "2.1.4"
+converterGson = "2.11.0"
+material = "1.11.0"
+swiperefreshlayout = "1.1.0"
+
+[libraries]
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "converterGson" }
+swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+
